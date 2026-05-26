@@ -19,6 +19,9 @@ return {
       SnacksPickerTree = { bg = c.sideBar.background, fg = c.editorIndentGuide.background },
 
       -- Picker
+      SnacksPicker              = { bg = c.sideBar.background, fg = c.sideBar.foreground },
+      SnacksPickerList          = { bg = c.sideBar.background, fg = c.sideBar.foreground },
+      SnacksPickerMatch         = { fg = c.base.yellow, bold = true },
       SnacksPickerInputBorder   = { bg = c.sideBar.background, fg = c.sideBar.foreground },
       SnacksPickerTitle         = { bg = c.sideBar.background, fg = c.base.yellow, bold = true },
       SnacksPickerPrompt        = { bg = c.sideBar.background, fg = c.base.blue },
@@ -27,7 +30,7 @@ return {
       SnacksPickerDir           = { fg = c.sideBar.foreground },
 
       -- Git
-      SnacksPickerGitStatusUntracked = { fg = c.gitDecoration.untrackedResourceForeground }
+      SnacksPickerGitStatusUntracked = { fg = c.gitDecoration.untrackedResourceForeground },
     }
     local rainbow = {
       c.base.red,
