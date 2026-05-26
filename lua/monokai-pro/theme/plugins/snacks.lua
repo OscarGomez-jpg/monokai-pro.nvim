@@ -15,19 +15,34 @@ return {
 
       SnacksTitle = { bg = c.sideBar.background, fg = c.base.yellow, bold = true },
 
+      -- Windows Base & Global
+      SnacksNormal           = { bg = c.sideBar.background, fg = c.sideBar.foreground },
+      SnacksNormalNC         = { bg = c.sideBar.background, fg = c.sideBar.foreground },
+      SnacksWinSeparator     = { fg = c.base.dimmed5 },
+
       -- Explorer
-      SnacksPickerTree = { bg = c.sideBar.background, fg = c.editorIndentGuide.background },
+      SnacksPickerTree       = { bg = c.sideBar.background, fg = c.base.dimmed4 },
+      SnacksPickerRow        = { bg = c.sideBar.background },
+      SnacksPickerCol        = { bg = c.sideBar.background },
 
       -- Picker
+      SnacksPicker           = { bg = c.sideBar.background, fg = c.sideBar.foreground },
+      SnacksPickerList       = { bg = c.sideBar.background, fg = c.sideBar.foreground },
+      SnacksPickerMatch      = { fg = c.base.yellow, bold = true },
       SnacksPickerInputBorder   = { bg = c.sideBar.background, fg = c.sideBar.foreground },
       SnacksPickerTitle         = { bg = c.sideBar.background, fg = c.base.yellow, bold = true },
       SnacksPickerPrompt        = { bg = c.sideBar.background, fg = c.base.blue },
       SnacksPickerBorder        = { bg = c.sideBar.background, fg = c.sideBar.foreground },
       SnacksPickerTotals        = { fg = c.base.dimmed3 },
       SnacksPickerDir           = { fg = c.sideBar.foreground },
+      SnacksPickerInput         = { bg = c.sideBar.background, fg = c.sideBar.foreground },
+
+      -- Paths & Visibility
+      SnacksPickerGitIgnored    = { fg = c.base.dimmed2 },
+      SnacksPickerPathIgnored   = { fg = c.base.dimmed2 },
 
       -- Git
-      SnacksPickerGitStatusUntracked = { fg = c.gitDecoration.untrackedResourceForeground }
+      SnacksPickerGitStatusUntracked = { fg = c.gitDecoration.untrackedResourceForeground },
     }
     local rainbow = {
       c.base.red,
